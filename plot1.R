@@ -6,6 +6,6 @@ epc$Time <- strptime(paste(epc$Date, epc$Time), format="%d/%m/%Y %H:%M:%S")
 epc$Date <- as.Date(epc$Date, format="%d/%m/%Y")
 
 # Plot
-# png(filename = "plot1.png", width = 480, height = 480, units = "px")
+png(filename = "plot1.png", width = 480, height = 480, units = "px")
 hist(epc$Global_active_power, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)", ylab = "Frequency")
-# dev.off()
+dev.off()
