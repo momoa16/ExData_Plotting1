@@ -14,6 +14,8 @@ plot1.R produces plot1.png
 
 The remaining plotX.R could be run in any order assuming that the data file is already in the current directory.
 
+Each R file produces the corresponding png file.
+
 
 
 
