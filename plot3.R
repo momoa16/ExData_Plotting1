@@ -1,3 +1,7 @@
+# It takes time to download and unzip the file
+# It has been done once in plot1.R
+# We will assume that the data file "household_power_consumption.txt" is in the current directory
+
 # Loading Data
 colN <- names(read.csv("household_power_consumption.txt", sep = ";", nrows = 1))
 epc <- read.csv("household_power_consumption.txt", sep = ";", skip = 66636, nrows = 2880, header = TRUE, na.strings = "?", col.names = colN)
